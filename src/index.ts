@@ -25,7 +25,3 @@ export function veiculo(mask?: boolean) {
 export function uteis() {
   getUtils();
 }
-
-
-
-
