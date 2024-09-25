@@ -36,10 +36,12 @@ npm install 5devs
 Here's an example of how to use the library:
 
 ```typescript
-import { empresa, pessoa, telefone, veiculo } from "5devs";
+import { empresa, pessoa, telefone, veiculo, utils } from "5devs";
 
-const empresaData = empresa();
-const pessoaData = pessoa();
-const telefoneData = telefone();
-const veiculoData = veiculo();
+// O parâmetro mask é opcional e pode ser usado para gerar dados com máscara.
+const empresa = empresa(mask: boolean);
+const pessoa = pessoa(mask: boolean);
+const telefone = telefone(mask: boolean);
+const veiculo = veiculo(mask: boolean);
+const uteis = uteis();
 ```
