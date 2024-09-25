@@ -16,7 +16,7 @@ function empresa(mask) {
 function pessoa(mask) {
     return (0, pessoa_1.personData)(mask);
 }
-// TODO: Telefone ☎️
+// TODO: Endereço 🏠
 function telefone(mask) {
     return (0, telefone_1.phone)(mask);
 }
