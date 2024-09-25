@@ -12,7 +12,7 @@ export function pessoa(mask?: boolean) {
   return personData(mask);
 }
 
-// TODO: Telefone ☎️
+// TODO: Endereço 🏠
 
 export function telefone(mask?: boolean) {
   return phone(mask);
@@ -25,3 +25,7 @@ export function veiculo(mask?: boolean) {
 export function uteis() {
   getUtils();
 }
+
+
+
+
